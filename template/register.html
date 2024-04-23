@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+<div class="container-fluid">
+    <div class="form_body">
+        <h2 class="text-center font-">Donor Registration Form</h2>
+        <form action="{% url 'dregdisplay' %}" method="post">
+            {% csrf_token %}
+            {{forms.as_p}}
+            <button type="submit" class="btn reg_btn"
+                style="background-color: rgb(128, 103, 59); margin-left: 40%;">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

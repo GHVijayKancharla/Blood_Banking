@@ -1,0 +1,12 @@
+{
+    "git.decorations.enabled": false,
+    "git.enabled": false,
+    "git.enableStatusBarSync": false,
+    "gitlens.views.commits.pullRequests.enabled": false,
+    "gitlens.views.commits.pullRequests.showForBranches": false,
+    "git.confirmEmptyCommits": false,
+    "gitlens.views.commits.pullRequests.showForCommits": false,
+    "gitlens.views.repositories.showCommits": false,
+    "gitlens.views.fileHistory.pullRequests.showForCommits": false,
+    "gitlens.views.worktrees.pullRequests.showForCommits": false
+}

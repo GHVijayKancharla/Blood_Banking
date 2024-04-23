@@ -1,0 +1,44 @@
+{% extends 'home_base.html' %}
+
+
+{% block content %}
+
+
+<div class="post clearfix">
+    <div class="postimg float-left">
+        <img src="{{ our_vision.body_img.url }}" class="img-thumbnail" alt="Post 1st image">
+    </div>
+
+    <div class="post_dec float-right">
+        <h2 class="font-weight-bold" style="color: rgb(110, 72, 25);">{{ our_vision.title }}</h2>
+        <p class="text-break">{{ our_vision.body_text }}</p>
+    </div>
+</div>
+
+<div class="post2 clearfix">
+    
+    <div class="postimg2 float-right">
+        <img src="{{ donor_opinion.body_img.url }}" class="img-thumbnail" alt="Post 1st image">
+    </div>
+    
+    <div class="post_dec2 float-left">
+        <h2 class="font-weight-bold" style="color: rgb(110, 72, 25);">{{ donor_opinion.title }}</h2>
+        <p class="text-break text-justify">{{ donor_opinion.body_text }}</p>
+    </div>
+</div>
+
+
+<div class="post3 clearfix">
+    
+    <div class="postimg3 float-left">
+        <img src="{{ user_opinion.body_img.url }}" class="img-thumbnail" alt="Post 1st image">
+    </div>
+    
+    <div class="post_dec3 float-right">
+        <h2 class="font-weight-bold" style="color: rgb(110, 72, 25);">{{ user_opinion.title }}</h2>
+        <p class="text-justify">{{ user_opinion.body_text }}</p>
+    </div>
+</div>
+
+
+{% endblock %}
